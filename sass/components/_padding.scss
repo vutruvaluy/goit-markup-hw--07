@@ -1,0 +1,18 @@
+.padding{
+    padding-top: 0;
+    padding-bottom: 94px;
+    background-color: var(--background-color); 
+}
+.site-works{
+    display: flex;
+    margin-left: wrap;
+    
+}
+.site-works .item{
+   
+    width: calc((100%-60px) / 3);
+    margin-right: 30px; 
+}  
+.site-works .item:nth-child(3n){
+    margin-right: 0;
+}

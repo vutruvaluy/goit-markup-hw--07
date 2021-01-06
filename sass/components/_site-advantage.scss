@@ -1,0 +1,47 @@
+.site-advantage{
+    display: flex;
+    margin-left: wrap; 
+}
+.site-advantage .item{
+    width: calc((100%-90px) / 4);
+    margin-right: 30px; 
+}
+.site-advantage .item:nth-child(4n){
+    margin-right: 0;
+}
+.site-advantage .item::before{
+    display: block;
+    content: '';
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.site-advantage .item:nth-child(1)::before{
+    background-color: var(--secondary-color-grey);
+    background-image: url('../img/Group.svg');
+    background-repeat: no-repeat;
+    background-position: center
+    ;
+}
+
+.site-advantage .item:nth-child(2)::before{
+    background-color: var(--secondary-color-grey);
+    background-image: url('../img/clock\ 1.svg');
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.site-advantage .item:nth-child(3)::before{
+    background: var(--secondary-color-grey);
+    background-image: url('../img/diagram\ 1.svg');
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.site-advantage .item:nth-child(4)::before{
+    background: var(--secondary-color-grey);
+    background-image: url('../img/astronaut\ 1.svg');
+    background-repeat: no-repeat; 
+    background-position: center;
+}
