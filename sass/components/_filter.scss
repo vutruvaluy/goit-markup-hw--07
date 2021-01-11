@@ -1,4 +1,4 @@
-.filter{
+.filter {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -30,7 +30,7 @@
     display: block;
     min-width: 100%;
   
-    background-color: var(--background-color);
+    background-color: $background-color;
   
     transition-property: box-shadow;
     transition-duration: 250ms;
@@ -63,10 +63,10 @@
   
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.56;
+    line-height: 1, 56px;
     letter-spacing: 0.03em;
   
-    color: var(--background-color);
+    color: $background-color;
     background-color: rgba(33, 150, 243, 0.9);
   
     transition-property: opacity, transform;
@@ -86,7 +86,7 @@
     padding-bottom: 20px;
     padding-left: 24px;
   
-    background-color: var(--background-color);
+    background-color: $background-color;
   
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
@@ -114,7 +114,7 @@
     letter-spacing: 0.03em;
   }
 
-  .site-menu{
+  .site-menu {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
@@ -125,10 +125,10 @@
    
 }
 
-.passive-list{
+.passive-list {
     display: block;
-    background-color: var(--secondary-color-grey);
-    color: var(--primari-text-color);
+    background-color: $secondary-color-grey;
+    color: $primari-text-color;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -138,14 +138,35 @@
     border: #F5F4FA;;
     border-radius: 4px;
 
-    transition-property: color, background-color;
+    transition-property: color, $background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .passive-list:hover,
-.passive-list:focus{
-    background-color: var(--accent-color);
-    color: var(--background-color);
+.passive-list:focus {
+    background-color: $accent-color;
+    color: $background-color;
     
+}
+
+.card-contant {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    padding: 20px 24px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+ .heading{
+    margin-bottom: 4px;
+    color: $primari-text-color;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
 }

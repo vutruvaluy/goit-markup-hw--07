@@ -1,24 +1,23 @@
-.contacts-1{
+.contacts-1 {
     padding-top: 60px;
     padding-bottom: 60px;
-    
+
     font-weight: 400px;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1, 71;
 
-    background-color: var(--secondary-color-blue);
+    background-color: #2F303A;
 }
 
-.main-contacts-1{
+.main-contacts-1 {
     display: flex;
-    
 }
 
-.contacts-list{
+.contacts-list {
     margin-right: 70px;
 }
 
-.sotial-title-1{
+.sotial-title-1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -27,53 +26,51 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: var(--background-color);
+    color: $background-color;
 
     margin-bottom: 20px;
 }
 
-.sotial-list{
+.sotial-list {
     margin-right: 93px;
 }
 
-.contacts-1 .contacts-adress{
-    color: var(--text-color-white);
+.contacts-1 .contacts-adress {
+    color: $text-color-white;
     font-weight: 400px;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1, 71;
 }
-.contacts-1 .contacts-connection{
-    color: var(--phone-color);
+.contacts-1 .contacts-connection {
+    color: $phone-color;
     font-weight: 400px;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1, 71;
 }
-.adress-1{
+.adress-1 {
     margin-top: 20px;
     margin-right: auto;
-
 }
-.adress-1 .item-1:not(:last-child){
+.adress-1 .item-1:not(:last-child) {
     margin-bottom: 9px;
-
 }
-.social-footer-1 .social-1{
+.social-footer-1 .social-1 {
     display: inline-block;
     height: 44px;
     width: 44px;
 }
 
-.social-footer-1 .social-1{
+.social-footer-1 .social-1 {
     margin-right: 10px;
     padding-bottom: 97px;
 }
 
-.social-footer-1 .social-1:last-child{
-   margin-right: o;
+.social-footer-1 .social-1:last-child {
+    margin-right: 0;
 }
-.footer-link{
+.footer-link {
     display: flex;
-    background: rgba(255, 255, 255, 0.1);;
+    background: rgba(255, 255, 255, 0.1);
     width: 44px;
     height: 44px;
 
@@ -85,34 +82,34 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-sotial{
+.footer-sotial {
     display: block;
     width: 20px;
     height: 20px;
-    fill: var(--background-color);
+    fill: $background-color;
 }
 .footer-link:hover,
 .footer-link:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
 }
 .footer-link:hover .footer-sotial,
 .footer-link:focus .footer-sotial {
-    fill: var(--background-color);
+    fill: $background-color;
 }
 
-.footer-field{
+.footer-field {
     height: 50px;
     width: 358px;
     margin: 0;
     margin-right: 12px;
     padding: 16px 15px;
-    background-color: var(--secondary-color-blue);
-    border: 1px solid var(--phone-color);
+    background-color: $secondary-color-blue;
+    border: 1px solid $phone-color;
     box-sizing: border-box;
     border-radius: 4px;
 }
 
-.footer-field textarea::placeholder{
+.footer-field textarea::placeholder {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -123,20 +120,20 @@
     align-items: center;
     letter-spacing: 0.03em;
 
-    color: var(--phone-color);
+    color: $phone-color;
 }
 
-.footer-button{
+.footer-button {
     display: inline-flex;
     align-items: center;
     padding-top: 10px;
     padding-right: 29px;
     padding-bottom: 10px;
     padding-left: 29px;
-    background: var(--accent-color);
-    border: 1px solid var(--accent-color);
+    background: $accent-color;
+    border: 1px solid $accent-color;
     border-radius: 4px;
-    color: var(--background-color);
+    color: $background-color;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -147,11 +144,10 @@
     cursor: pointer;
 }
 
-.footer-button::after{
-    content: '';
+.footer-button::after {
+    content: "";
     width: 24px;
     height: 24px;
     margin-left: 10px;
-    background-image: url(../img/icons/icon\ send\ \(1\).svg);
-   
+    background-image: url(../img/icons/close3.svg);
 }

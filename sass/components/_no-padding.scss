@@ -1,16 +1,16 @@
-.no-padding{
+/*.no-padding {
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--secondary-color-grey);
    
-}
-.section.no-padding{
+}*/
+.section.no-padding {
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: var(--secondary-color-grey);
+    background-color: $secondary-color-grey;
    
 }
- .section-text{
+ .section-text {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -18,9 +18,9 @@
     line-height: 2;
     letter-spacing: 0.03em;
 
-     color: var(--text-color) ;
+     color: $text-color;
  }
- .section h2{
+ .section h2 {
     padding-bottom: 50px;
 
     font-family: Roboto;
@@ -31,13 +31,13 @@
     text-align: center;
     letter-spacing: 0.03em;
 }
-.command-selection .section-text{
+.command-selection .section-text {
     margin-bottom: 16px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 1,18px;
+    line-height: 1, 18px;
 }
 
 .command-selection {
@@ -63,15 +63,15 @@
   margin-right: 0;
 }
 
-.site-filter .section-text{
+.site-filter .section-text {
     
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 1,87px;
+    line-height: 1, 87px;
 }
-.section .title{
+.section .title {
     margin-top: 0;
     margin-bottom: 10px;
 
@@ -84,8 +84,8 @@
     text-transform: uppercase;
 }
 
-.card-comand{
-    background-color: var(--background-color);
+.card-comand {
+    background-color: $background-color;
 
     width: 270px;
     height: 428px;
@@ -94,17 +94,17 @@
     border-radius: 0px 0px 4px 4px;
 }
 
-.social-card{
+.social-card {
     width: 270px;
     height: 168px;
     box-sizing: border-box;
     padding: 30px 32px;
 }
 
-.social-network{
+.social-network {
     display: flex;
 }
-.social{
+.social {
     display: block;
     justify-content: center;
     align-items: center;
@@ -133,10 +133,10 @@
 
 }
 .soc-media-link:hover,
-.soc-media-link:focus{
-    background: var(--accent-color);
+.soc-media-link:focus {
+    background: $accent-color;
 }
 .soc-media-link:hover .soc-media-logo,
-.soc-media-link:focus .soc-media-logo{
-    fill: var(--background-color);
+.soc-media-link:focus .soc-media-logo {
+    fill: $background-color;
 }
