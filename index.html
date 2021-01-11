@@ -5,10 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lesson-6</title>
   <link rel="stylesheet" href="./css/main.min.css"/>
-  <link 
-     href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
-     rel="stylesheet"
-     />
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet"> -->
   <link 
       rel="stylesheet" 
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -58,45 +56,51 @@
                         <h1 class="form-text">Оставьте свои данные, мы вам перезвоним</h1>
                         <div class="form-field">
                             <label for="name" class="form-lable">Имя</label>
-                            <input type="text" class="form-input" name="name" id="name" placeholder=" " autofocus />
+                            <input 
+                              type="text" 
+                              class="form-input" 
+                              name="name" 
+                              placeholder=" " autofocus />
                             <svg class="form-icon" width="15" height="15">
                                 <use href="./img/modal.svg#icon-person-black-18dp-1-1"></use>
                             </svg>
+                           
                         </div>
+                       
                         <div class="form-field">
-                            <label for="tel" class="form-lable">Телефон</label>
+                            <label for="tel" class="form-lable">Телефон</label> 
                             <input
                              type="tel"
                              class="form-input"
                              name="tel"
-                             id="tel"
                              placeholder=" "
                             />
                             <svg class="form-icon" width="15" height="15">
                                 <use href="./img/modal.svg#icon-phone-black-18dp-1-1"></use>
                             </svg>
+                            
                         </div>
                         <div class="form-field">
                             <label for="mail" class="form-lable">Почта</label>
                             <input
-                             type="email"
+                             type="mail"
                              class="form-input"
                              name="mail"
-                             id="mail"
                              placeholder=" "
                             />
                             <svg class="form-icon" width="15" height="15">
                                 <use href="./img/modal.svg#icon-email-black-18dp-1-1"></use>
                             </svg>
+                            
                         </div>
                         <div class="form-field">
                             <label for="comment" class="form-lable">Комментарий</label>
                             <textarea
                              name="comment" 
-                             id="comment" 
                              rows="7" 
                              placeholder="Введите текст">
                             </textarea>
+                            
                         </div>
                         <div class="lable-list" >
                             <label class="label">
@@ -175,16 +179,16 @@
                 <h2>Чем мы занимаемся</h2>
                 <ul class="site-works">
                     <li class="item ">
-                        <img src="img/desktop.jpg" alt="img1">
-                        <p>Десктопные приложения</p>
+                        <img src="img/desktop.jpg" width="370" height="294" alt="img1">
+                        <p class="box">Десктопные приложения</p>
                     </li>
                     <li class="item ">
-                        <img src="img/mobile.jpg" alt="img2">
-                        <p>Мобильные приложения</p>
+                        <img src="img/mobile.jpg" width="370" height="294" alt="img2">
+                        <p class="box">Мобильные приложения</p>
                     </li>
                     <li class="item ">
-                        <img src="img/designe.jpg" alt="img3">
-                        <p>Дизайнерские решения</p>
+                        <img src="img/designe.jpg" width="370" height="294" alt="img3">
+                        <p class="box" >Дизайнерские решения</p>
                     </li>
                 </ul>
             </div>
@@ -441,6 +445,7 @@
                 <label for="mail"></label>
                 <input class="footer-field" type="email" name="mail" id="mail" placeholder="E-mail">
                 <button class="footer-button" type="submit">Подписатся</button>
+                
             </div> 
         </div>
     </footer>

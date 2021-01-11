@@ -80,9 +80,9 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contacts-nav .link:hover ,
+.contacts-nav .link:hover,
 .contacts-nav .link:focus {
-    color: var(--accent-color);
+    color: $accent-color;
  }
 .contacts-nav .link:hover .icon-envelope,
 .contacts-nav .link:focus .icon-envelope {

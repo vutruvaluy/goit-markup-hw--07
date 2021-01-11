@@ -1,8 +1,9 @@
 @import "./general/common";
 @import "./general/container";
 
+@import "./utils/modern-normalize";
+@import "./utils/fonts";
 @import "./utils/variables";
-@import "./utils/fonts"
 
 @import "./components/clients";
 @import "./components/contacts-1";
