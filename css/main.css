@@ -526,6 +526,9 @@ summary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .contacts-list {
@@ -869,6 +872,7 @@ summary {
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
+  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -893,7 +897,7 @@ summary {
   background-color: #F5F4FA;
   color: #212121;
   font-family: "Roboto";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
@@ -1114,10 +1118,9 @@ summary {
 
 .section-text {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 2;
+  line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
 }
