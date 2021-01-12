@@ -431,8 +431,8 @@ summary {
   height: 90px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  -webkit-transition-property: color, border;
-  transition-property: color, border;
+  -webkit-transition-property: fill, border;
+  transition-property: fill, border;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -478,6 +478,12 @@ summary {
 
 .client-list-item:hover .client-logo {
   fill: #2196F3;
+  -webkit-transition-property: fill, border;
+  transition-property: fill, border;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:focus {
@@ -486,11 +492,30 @@ summary {
 
 .client-link:focus .client-logo {
   fill: #2196F3;
+  -webkit-transition-property: fill, border;
+  transition-property: fill, border;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo-1 {
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-1 span {
+  color: #2196F3;
 }
 
 .contacts-1 {
   padding-top: 60px;
   padding-bottom: 60px;
+  font-family: "Roboto";
   font-weight: 400px;
   font-size: 14px;
   line-height: 1, 71;
@@ -508,7 +533,7 @@ summary {
 }
 
 .sotial-title-1 {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -525,6 +550,7 @@ summary {
 
 .contacts-1 .contacts-adress {
   color: #FFFFFF;
+  font-family: "Roboto";
   font-weight: 400px;
   font-size: 14px;
   line-height: 1, 71;
@@ -532,6 +558,7 @@ summary {
 
 .contacts-1 .contacts-connection {
   color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto";
   font-weight: 400px;
   font-size: 14px;
   line-height: 1, 71;
@@ -614,7 +641,7 @@ summary {
 }
 
 .footer-field textarea::-webkit-input-placeholder {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -628,7 +655,7 @@ summary {
 }
 
 .footer-field textarea::-moz-placeholder {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -640,7 +667,7 @@ summary {
 }
 
 .footer-field textarea:-ms-input-placeholder {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -654,7 +681,7 @@ summary {
 }
 
 .footer-field textarea::-ms-input-placeholder {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -668,7 +695,7 @@ summary {
 }
 
 .footer-field textarea::placeholder {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -698,7 +725,7 @@ summary {
   border: 1px solid #2196F3;
   border-radius: 4px;
   color: #FFFFFF;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -791,9 +818,10 @@ summary {
   padding-right: 24px;
   padding-bottom: 63px;
   padding-left: 24px;
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
-  line-height: 1, 56px;
+  line-height: 28px;
   letter-spacing: 0.03em;
   color: #FFFFFF;
   background-color: rgba(33, 150, 243, 0.9);
@@ -828,6 +856,7 @@ summary {
 
 .heading {
   margin: 0;
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -863,6 +892,7 @@ summary {
   display: block;
   background-color: #F5F4FA;
   color: #212121;
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -900,7 +930,7 @@ summary {
 .heading {
   margin-bottom: 4px;
   color: #212121;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -928,7 +958,7 @@ summary {
   margin-top: 0;
   padding-bottom: 30px;
   color: #FFFFFF;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -946,6 +976,7 @@ summary {
   color: #FFFFFF;
   background-color: #2196F3;
   border: #2196F3;
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1, 87px;
@@ -954,7 +985,6 @@ summary {
 
 .hero .link:hover,
 .hero .link:focus {
-  text-decoration: underline;
   background-color: #2196F3;
 }
 
@@ -1034,7 +1064,7 @@ summary {
 }
 
 .text-decor {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -1083,7 +1113,7 @@ summary {
 }
 
 .section-text {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -1094,7 +1124,7 @@ summary {
 
 .section h2 {
   padding-bottom: 50px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700px;
   font-size: 36px;
@@ -1105,7 +1135,7 @@ summary {
 
 .command-selection .section-text {
   margin-bottom: 16px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -1138,7 +1168,7 @@ summary {
 }
 
 .site-filter .section-text {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -1148,7 +1178,7 @@ summary {
 .section .title {
   margin-top: 0;
   margin-bottom: 10px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -1269,7 +1299,7 @@ summary {
   height: 70px;
   padding-bottom: 27px;
   padding-top: 27px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -1282,11 +1312,15 @@ summary {
 }
 
 .logo {
-  font-family: Raleway, cursive;
-  font-family: Raleway;
+  color: #000000;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19px;
+  line-height: 1.19;
+}
+
+.logo span {
+  color: #2196F3;
 }
 
 .page-header {
@@ -1307,6 +1341,7 @@ summary {
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
+  margin-left: 93px;
 }
 
 .site-nav .item:not(:last-child) {
@@ -1315,6 +1350,7 @@ summary {
 
 .site-nav .link-nav {
   position: relative;
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 14px;
@@ -1357,7 +1393,7 @@ summary {
   display: -ms-flexbox;
   display: flex;
   color: #757575;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -1428,7 +1464,7 @@ summary {
 
 .site-advantage .item:nth-child(1)::before {
   background-color: #F5F4FA;
-  background-image: url("../img/group.svg");
+  background-image: url("../img/antenna.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1481,7 +1517,7 @@ textarea {
 .form-lable {
   margin-bottom: 4px;
   margin-right: auto;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -1506,56 +1542,86 @@ textarea {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 4px;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field textarea::-webkit-input-placeholder {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field textarea::-moz-placeholder {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  -moz-transition-property: color;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field textarea:-ms-input-placeholder {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  -ms-transition-property: color;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field textarea::-ms-input-placeholder {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  -ms-transition-property: color;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field textarea::placeholder {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .consent-field {
@@ -1575,6 +1641,10 @@ textarea {
 
 .form-input:focus ~ .form-icon {
   fill: #2196F3;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus,
@@ -1582,11 +1652,15 @@ textarea {
   border-color: #2196F3;
   outline: none;
   cursor: pointer;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-text {
   padding-bottom: 12px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -1601,7 +1675,7 @@ textarea {
   border: 1px solid #2196F3;
   border-radius: 4px;
   color: #FFFFFF;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -1615,5 +1689,11 @@ textarea {
   color: #FFFFFF;
   outline: none;
   cursor: pointer;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*# sourceMappingURL=main.css.map */

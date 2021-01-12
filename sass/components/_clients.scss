@@ -13,9 +13,9 @@
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 
-    transition-property: color, border;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     transition-property: fill, border; 
+     transition-duration: 250ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-list-item {
@@ -45,11 +45,17 @@
     }
     .client-list-item:hover .client-logo {
         fill: $accent-color;
+        transition-property: fill, border; 
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     .client-link:focus {
         border-color: $accent-color;
     }
     .client-link:focus .client-logo {
         fill: $accent-color;
+         transition-property: fill, border; 
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     

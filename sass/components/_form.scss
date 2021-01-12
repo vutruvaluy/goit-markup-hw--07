@@ -17,7 +17,7 @@ textarea {
 .form-lable {
     margin-bottom: 4px;
     margin-right: auto;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -39,15 +39,23 @@ textarea {
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
+
+     transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-field textarea::placeholder {
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .consent-field {
@@ -68,6 +76,10 @@ textarea {
 
 .form-input:focus ~ .form-icon {
     fill: $accent-color;
+
+    //  transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus,
@@ -75,11 +87,15 @@ textarea {
     border-color: $accent-color;
     outline: none;
     cursor: pointer;
+
+    // transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-text {
     padding-bottom: 12px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -96,7 +112,7 @@ textarea {
     border: 1px solid $accent-color;
     border-radius: 4px;
     color: $background-color;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -109,4 +125,8 @@ textarea {
     color: $background-color;
     outline: none;
     cursor: pointer;
+
+     transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
